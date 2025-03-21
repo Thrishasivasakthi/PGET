@@ -3,7 +3,7 @@ USE SISDB
 
 CREATE TABLE Students (
     student_id INT NOT NULL,
-	CONSTRAINT PK_Students PRIMARY KEY (student_id),
+    CONSTRAINT PK_Students PRIMARY KEY (student_id),
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
     date_of_birth DATE,
@@ -14,7 +14,7 @@ CREATE TABLE Students (
 
 CREATE TABLE Teacher (
     teacher_id INT NOT NULL,
-	CONSTRAINT PK_Teacher PRIMARY KEY (teacher_id),
+    CONSTRAINT PK_Teacher PRIMARY KEY (teacher_id),
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
     email VARCHAR(100) UNIQUE
@@ -23,7 +23,7 @@ CREATE TABLE Teacher (
 
 CREATE TABLE Courses (
     course_id INT NOT NULL,
-	CONSTRAINT PK_Courses PRIMARY KEY (course_id),
+    CONSTRAINT PK_Courses PRIMARY KEY (course_id),
     course_name VARCHAR(100) NOT NULL,
     credits INT CHECK (credits > 0),
     teacher_id INT NOT NULL,
@@ -33,19 +33,19 @@ CREATE TABLE Courses (
 
 CREATE TABLE Enrollments (
     enrollment_id INT NOT NULL,
-	CONSTRAINT PK_Enrollments PRIMARY KEY (enrollment_id),
+    CONSTRAINT PK_Enrollments PRIMARY KEY (enrollment_id),
     student_id INT NOT NULL,
-	CONSTRAINT FK_Enrollments_Student FOREIGN KEY (student_id) REFERENCES Students(student_id) ON DELETE CASCADE ON UPDATE CASCADE, 
+    CONSTRAINT FK_Enrollments_Student FOREIGN KEY (student_id) REFERENCES Students(student_id) ON DELETE CASCADE ON UPDATE CASCADE, 
     course_id INT NOT NULL,
-	CONSTRAINT FK_Enrollments_Course FOREIGN KEY (course_id) REFERENCES Courses(course_id) ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT FK_Enrollments_Course FOREIGN KEY (course_id) REFERENCES Courses(course_id) ON DELETE CASCADE ON UPDATE CASCADE,
     enrollment_date DATE DEFAULT GETDATE(),
    );
 
 CREATE TABLE Payments (
     payment_id INT NOT NULL,
-	CONSTRAINT PK_Payments PRIMARY KEY (payment_id),
+    CONSTRAINT PK_Payments PRIMARY KEY (payment_id),
     student_id INT NOT NULL,
-	CONSTRAINT FK_Payments_Student FOREIGN KEY (student_id) REFERENCES Students(student_id) ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT FK_Payments_Student FOREIGN KEY (student_id) REFERENCES Students(student_id) ON DELETE CASCADE ON UPDATE CASCADE,
     amount DECIMAL(10, 2) CHECK (amount > 0),
     payment_date DATE DEFAULT GETDATE()   
 );
