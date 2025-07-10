@@ -1,0 +1,15 @@
+﻿@model IEnumerable<DAL.Models.Booking>
+<h2>Operator Bookings</h2>
+<table class="table">
+    <tr><th>ID</th><th>Seat</th><th>Status</th><th>Amount</th><th>Date</th></tr>
+    @foreach (var b in Model)
+    {
+        <tr>
+            <td>@b.Id</td>
+            <td>@b.SeatNumbers</td>
+            <td>@b.Status</td>
+            <td>@b.TotalAmount</td>
+            <td>@b.BookingDate.ToShortDateString()</td>
+        </tr>
+    }
+</table>

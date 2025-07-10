@@ -1,0 +1,13 @@
+﻿@model IEnumerable<DAL.Models.Bus>
+<h2>Buses for Route</h2>
+<table class="table">
+    <tr><th>Name</th><th>Type</th><th>Seats</th></tr>
+    @foreach (var bus in Model)
+    {
+        <tr>
+            <td>@bus.BusName</td>
+            <td>@bus.BusType</td>
+            <td>@bus.TotalSeats</td>
+        </tr>
+    }
+</table>

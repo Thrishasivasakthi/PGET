@@ -1,0 +1,8 @@
+﻿@model IEnumerable<string>
+<h3>Available Seats</h3>
+<ul class="list-group">
+    @foreach (var seat in Model)
+    {
+        <li class="list-group-item">@seat</li>
+    }
+</ul>

@@ -1,0 +1,28 @@
+﻿@model DAL.Models.Route
+<h2>Add New Route</h2>
+<form asp-action="AddRoute" method="post" class="form">
+    <div class="form-group">
+        <label>Origin</label>
+        <input asp-for="Origin" class="form-control" required />
+        <span asp-validation-for="Origin" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Destination</label>
+        <input asp-for="Destination" class="form-control" required />
+        <span asp-validation-for="Destination" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Departure</label>
+        <input asp-for="DepartureTime" type="datetime-local" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Arrival</label>
+        <input asp-for="ArrivalTime" type="datetime-local" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Fare</label>
+        <input asp-for="Fare" class="form-control" required />
+        <span asp-validation-for="Fare" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Add</button>
+</form>

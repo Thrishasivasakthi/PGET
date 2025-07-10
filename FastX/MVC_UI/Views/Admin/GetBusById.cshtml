@@ -1,0 +1,8 @@
+﻿@model DAL.Models.Bus
+<h2>Bus Details</h2>
+<p><strong>Name:</strong> @Model.BusName</p>
+<p><strong>Number:</strong> @Model.BusNumber</p>
+<p><strong>Type:</strong> @Model.BusType</p>
+<p><strong>Seats:</strong> @Model.TotalSeats</p>
+<p><strong>Operator:</strong> @Model.BusOperator?.CompanyName</p>
+<p><strong>Route:</strong> @Model.Route?.Origin to @Model.Route?.Destination</p>

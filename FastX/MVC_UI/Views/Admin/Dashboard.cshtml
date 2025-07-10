@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Admin Dashboard";
+    var users = ViewBag.Users as List<DAL.Models.User>;
+    var operators = ViewBag.Operators as List<DAL.Models.BusOperator>;
+}
+<h2>All Users</h2>
+<table class="table table-bordered">
+    <tr><th>Full Name</th><th>Email</th><th>Role</th><th>Action</th></tr>
+    @foreach (var u in users)
+    {
+        <tr>
+            <td>@u.FullName</td>
+            <td>@u.Email</td>
+            <td>@u.Role</td>
+            <td><a href="/Admin/DeleteUser/@u.Id" class="btn btn-danger btn-sm">Delete</a></td>
+        </tr>
+    }
+</table>
+@if (operators !=null)
+{
+
+    <h2>All Operators</h2>
+    <table class="table table-bordered">
+        <tr><th>Company</th><th>Email</th><th>Phone</th><th>Action</th></tr>
+        @foreach (var op in operators)
+        {
+            <tr>
+                <td>@op.CompanyName</td>
+                <td>@op.SupportEmail</td>
+                <td>@op.ContactNumber</td>
+                <td><a href="/Admin/DeleteOperator/@op.Id" class="btn btn-danger btn-sm">Delete</a></td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>NO operators found</p>
+}

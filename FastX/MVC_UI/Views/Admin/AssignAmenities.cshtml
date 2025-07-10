@@ -1,0 +1,16 @@
+﻿@{
+    var amenities = ViewBag.AllAmenities as List<DAL.Models.Amenity>;
+    int busId = ViewBag.BusId;
+}
+<h3>Assign Amenities to Bus @busId</h3>
+<form asp-action="AssignAmenities" method="post">
+    <input type="hidden" name="busId" value="@busId" />
+    @foreach (var a in amenities)
+    {
+        <div class="form-check">
+            <input type="checkbox" name="selectedAmenityIds" value="@a.Id" class="form-check-input" id="amenity_@a.Id" required />
+            <label for="amenity_@a.Id" class="form-check-label">@a.Name</label>
+        </div>
+    }
+    <button class="btn btn-primary mt-2">Assign</button>
+</form>
