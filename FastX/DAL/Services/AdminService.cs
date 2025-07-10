@@ -23,7 +23,7 @@ namespace FastX.DAL.Services
         public async Task<IEnumerable<BusOperator>> GetAllOperatorsAsync()
         {
             return await _context.BusOperators
-                //.Include(o => o.User)
+                .Include(o => o.User)
                 .ToListAsync();
         }
 

@@ -1,13 +1,46 @@
 ﻿@model IEnumerable<DAL.Models.Bus>
-<h2>Operator Buses</h2>
-<table class="table">
-    <tr><th>Name</th><th>Type</th><th>Total Seats</th></tr>
-    @foreach (var b in Model)
-    {
-        <tr>
-            <td>@b.BusName</td>
-            <td>@b.BusType</td>
-            <td>@b.TotalSeats</td>
-        </tr>
-    }
-</table>
+
+@{
+    ViewBag.Title = "All Buses by Operators";
+}
+
+<h2 class="my-3">All Operator Buses</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning">No buses available.</div>
+}
+else
+{
+    <table class="table table-striped table-bordered">
+        <thead class="table-primary">
+            <tr>
+                <th>Bus Name</th>
+                <th>Bus Number</th>
+                <th>Type</th>
+                <th>Total Seats</th>
+                <th>Route (From → To)</th>
+                <th>Fare</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var bus in Model)
+            {
+                <tr>
+                    <td>@bus.BusName</td>
+                    <td>@bus.BusNumber</td>
+                    <td>@bus.BusType</td>
+                    <td>@bus.TotalSeats</td>
+                    <td>@bus.Route?.Origin → @bus.Route?.Destination</td>
+                    <td>₹@bus.Route?.Fare</td>
+                    <td>
+                        <a asp-action="EditBus" asp-controller="Admin" asp-route-id="@bus.Id" class="btn btn-sm btn-warning">Edit Bus</a>
+                        <a asp-action="AssignAmenities" asp-controller="Admin" asp-route-busId="@bus.Id" class="btn btn-sm btn-info">Assign Amenities</a>
+                        <a asp-action="AvailableSeats" asp-controller="Admin" asp-route-busId="@bus.Id" class="btn btn-sm btn-success">Available Seats</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

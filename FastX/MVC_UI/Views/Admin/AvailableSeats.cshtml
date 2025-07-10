@@ -1,8 +1,33 @@
 ﻿@model IEnumerable<string>
+
 <h3>Available Seats</h3>
-<ul class="list-group">
-    @foreach (var seat in Model)
-    {
-        <li class="list-group-item">@seat</li>
-    }
-</ul>
+
+@{
+    var seatList = Model.ToList();
+    int half = seatList.Count / 2;
+    var leftSeats = seatList.Take(half).ToList();
+    var rightSeats = seatList.Skip(half).ToList();
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h5>Left Side</h5>
+            <ul class="list-group">
+                @foreach (var seat in leftSeats)
+                {
+                    <li class="list-group-item">@seat</li>
+                }
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <h5>Right Side</h5>
+            <ul class="list-group">
+                @foreach (var seat in rightSeats)
+                {
+                    <li class="list-group-item">@seat</li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

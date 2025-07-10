@@ -454,6 +454,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "API.Controllers.RouteController",
+    "Method": "GetAllRoutes",
+    "RelativePath": "api/Route/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.RouteController",
+    "Method": "GetBusById",
+    "RelativePath": "api/Route/bus/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API.Controllers.UserController",
     "Method": "GetUserBookings",
     "RelativePath": "api/User/bookings/{userId}",

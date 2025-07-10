@@ -4,6 +4,14 @@
     var users = ViewBag.Users as List<DAL.Models.User>;
     var operators = ViewBag.Operators as List<DAL.Models.BusOperator>;
 }
+@section Styles {
+    <style>
+        h2 {
+            margin-top: 30px;
+            color: #0d6efd;
+        }
+    </style>
+}
 <h2>All Users</h2>
 <table class="table table-bordered">
     <tr><th>Full Name</th><th>Email</th><th>Role</th><th>Action</th></tr>
@@ -27,7 +35,7 @@
         {
             <tr>
                 <td>@op.CompanyName</td>
-                <td>@op.SupportEmail</td>
+                <td>@op.User?.Email ?? "N/A"</td>
                 <td>@op.ContactNumber</td>
                 <td><a href="/Admin/DeleteOperator/@op.Id" class="btn btn-danger btn-sm">Delete</a></td>
             </tr>

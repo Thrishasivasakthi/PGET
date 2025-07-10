@@ -1,0 +1,61 @@
+﻿@model MVC_UI.Models.OperatorDetailsViewModel
+
+@{
+    ViewBag.Title = "ViewOperator";
+}
+
+<h2>Operator Profile</h2>
+@if (Model.Operator != null)
+{
+    <div class="card mb-4">
+        <div class="card-body">
+            <h4>@Model.Operator.CompanyName</h4>
+            <p>Email: @Model.Operator.SupportEmail</p>
+            <p>Phone: @Model.Operator.ContactNumber</p>
+        </div>
+    </div>
+
+    <h3>Buses Managed</h3>
+    <table class="table table-bordered">
+        <tr>
+            <th>Name</th>
+            <th>Number</th>
+            <th>Type</th>
+            <th>Seats</th>
+        </tr>
+        @foreach (var bus in Model.Buses)
+        {
+            <tr>
+                <td>@bus.BusName</td>
+                <td>@bus.BusNumber</td>
+                <td>@bus.BusType</td>
+                <td>@bus.TotalSeats</td>
+            </tr>
+        }
+    </table>
+
+    <h3>Bookings</h3>
+    <table class="table table-striped">
+        <tr>
+            <th>User</th>
+            <th>Bus</th>
+            <th>Seats</th>
+            <th>Status</th>
+            <th>Amount</th>
+        </tr>
+        @foreach (var booking in Model.Bookings)
+        {
+            <tr>
+                <td>@booking.User?.FullName</td>
+                <td>@booking.Bus?.BusName</td>
+                <td>@booking.SeatNumbers</td>
+                <td>@booking.Status</td>
+                <td>@booking.TotalAmount</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>No operator found with the given ID.</p>
+}

@@ -91,6 +91,9 @@ namespace FastX.DAL.Services
 
         private string HashPassword(string password)
         {
+            if (string.IsNullOrEmpty(password))
+                throw new ArgumentNullException(nameof(password));
+
             using var sha = SHA256.Create();
             var bytes = sha.ComputeHash(Encoding.UTF8.GetBytes(password));
             return Convert.ToBase64String(bytes);

@@ -1,5 +1,7 @@
 ﻿using DAL.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using MVC_UI.Models;
 using MVC_UI.Services;
 using System.Text;
 
@@ -17,8 +19,14 @@ namespace MVC_UI.Controllers
         // Dashboard
         public async Task<IActionResult> Dashboard()
         {
-            ViewBag.Users = await _apiService.GetAllUsersAsync();
-            ViewBag.Operators = await _apiService.GetAllOperatorsAsync();
+            var users = await _apiService.GetAllUsersAsync();
+            var operators = await _apiService.GetAllOperatorsAsync();
+
+            Console.WriteLine($"Operators count: {operators?.Count()}");
+
+            ViewBag.Users = users;
+            ViewBag.Operators = operators;
+
             return View();
         }
 
@@ -31,17 +39,35 @@ namespace MVC_UI.Controllers
 
         // Routes
         [HttpGet]
-        public IActionResult AddRoute() => View();
+        public async Task<IActionResult> AddRoute()
+        {
+            var operators = await _apiService.GetAllOperatorsAsync();
+            ViewBag.Operators = new SelectList(operators, "Id", "CompanyName");
+            return View();
+        }
 
         [HttpPost]
-        public async Task<IActionResult> AddRoute(DAL.Models.Route route)
+        public async Task<IActionResult> AddRoute(AddRouteRequest routeRequest)
         {
-            if (!ModelState.IsValid) return View(route);
+            if (!ModelState.IsValid) return View(routeRequest);
+
+            var route = new DAL.Models.Route
+            {
+                Origin = routeRequest.Origin,
+                Destination = routeRequest.Destination,
+                DepartureTime = routeRequest.DepartureTime,
+                ArrivalTime = routeRequest.ArrivalTime,
+                Fare = routeRequest.Fare
+            };
+
             var success = await _apiService.AddRouteAsync(route);
             if (success) return RedirectToAction("Dashboard");
+
             ViewBag.Error = "Failed to add route.";
-            return View(route);
+            return View(routeRequest);
         }
+
+
 
         //Users & Operators
         public async Task<IActionResult> DeleteUser(int id)
@@ -92,11 +118,22 @@ namespace MVC_UI.Controllers
         }
 
         [HttpGet]
+        
         public async Task<IActionResult> EditBus(int id)
         {
             var bus = await _apiService.GetBusByIdAsync(id);
+            if (bus == null)
+            {
+                
+                return NotFound();
+            }
+            var routes = await _apiService.GetAllRoutesAsync();  // ← Add this if not done already
+
+            ViewBag.RouteId = new SelectList(routes, "Id", "Origin"); // Or Destination or custom label
+
             return View(bus);
         }
+
 
         [HttpPost]
         public async Task<IActionResult> EditBus(Bus bus)
@@ -105,6 +142,20 @@ namespace MVC_UI.Controllers
             return success ? RedirectToAction("Dashboard") : View(bus);
         }
 
+        public async Task<IActionResult> OperatorBuses()
+        {
+            var allOperators = await _apiService.GetAllOperatorsAsync();
+            var allBuses = new List<Bus>();
+
+            foreach (var op in allOperators)
+            {
+                var buses = await _apiService.GetOperatorBusesAsync(op.Id);
+                if (buses != null)
+                    allBuses.AddRange(buses);
+            }
+
+            return View("OperatorBuses", allBuses);
+        }
         public async Task<IActionResult> AvailableSeats(int busId)
         {
             var seats = await _apiService.GetAvailableSeatsAsync(busId);
@@ -118,22 +169,32 @@ namespace MVC_UI.Controllers
         }
 
         // Operator Details
-        public async Task<IActionResult> OperatorProfile(int userId)
+        public async Task<IActionResult> OperatorProfile()
         {
-            var profile = await _apiService.GetOperatorProfileAsync(userId);
-            return View(profile);
+            var operators = await _apiService.GetAllOperatorsAsync();
+            return View(operators);
         }
 
-        public async Task<IActionResult> OperatorBuses(int operatorId)
+        public async Task<IActionResult> ViewOperator(int id)
         {
-            var buses = await _apiService.GetOperatorBusesAsync(operatorId);
-            return View(buses);
-        }
+            var profile = await _apiService.GetOperatorProfileAsync(id);
+            var buses = await _apiService.GetOperatorBusesAsync(id);
+            var bookings = await _apiService.GetOperatorBookingsAsync(id);
 
-        public async Task<IActionResult> OperatorBookings(int operatorId)
-        {
-            var bookings = await _apiService.GetOperatorBookingsAsync(operatorId);
-            return View(bookings);
+            if (profile == null)
+            {
+                TempData["Error"] = "Operator not found.";
+                return RedirectToAction("OperatorProfile");
+            }
+
+            var model = new Models.OperatorDetailsViewModel
+            {
+                Operator = profile,
+                Buses = buses,
+                Bookings = bookings
+            };
+
+            return View(model);
         }
 
         public async Task<IActionResult> RefundBooking(int bookingId)
@@ -142,6 +203,9 @@ namespace MVC_UI.Controllers
             TempData["Message"] = result ? "Refund successful." : "Refund failed.";
             return RedirectToAction("Bookings");
         }
+
+
+
 
         // API to search buses by route and date
         public async Task<IActionResult> BusesByRoute(int routeId, DateTime date)

@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkUm91dGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/thris/source/repos/FastX/MVC_UI/Views/Admin/Amenities.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQW1lbml0aWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/thris/source/repos/FastX/MVC_UI/Views/Admin/AssignAmenities.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXNzaWduQW1lbml0aWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,6 +74,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/thris/source/repos/FastX/MVC_UI/Views/Admin/OperatorProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3BlcmF0b3JQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thris/source/repos/FastX/MVC_UI/Views/Admin/ViewOperator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlld09wZXJhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/thris/source/repos/FastX/MVC_UI/Views/Home/Index.cshtml]

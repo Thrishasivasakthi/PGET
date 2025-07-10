@@ -1,5 +1,6 @@
 ﻿using DAL.Models;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System.Net.Http.Headers;
 
 namespace MVC_UI.Services
@@ -55,7 +56,7 @@ namespace MVC_UI.Services
             try
             {
                 var client = CreateAuthorizedClient();
-                var res = await client.GetAsync("https://localhost:5202/api/admin/operators");
+                var res = await client.GetAsync("http://localhost:5202/api/admin/operators");
 
                 if (!res.IsSuccessStatusCode)
                 {
@@ -63,11 +64,12 @@ namespace MVC_UI.Services
                     return new List<BusOperator>();
                 }
 
-                return JsonConvert.DeserializeObject<IEnumerable<BusOperator>>(await res.Content.ReadAsStringAsync())
-                    ?? new List<BusOperator>();
+                var json = await res.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<IEnumerable<BusOperator>>(json) ?? new List<BusOperator>();
             }
-            catch
+            catch(Exception ex)
             {
+                Console.WriteLine("Error fetching operators: " + ex.Message);
                 return new List<BusOperator>(); // fallback to avoid null
             }
         }
@@ -96,16 +98,27 @@ namespace MVC_UI.Services
             return res.IsSuccessStatusCode;
         }
 
-       
+
         // AmenityController
-       
-        public async Task<IEnumerable<Amenity>> GetAllAmenitiesAsync()
+
+        public async Task<List<Amenity>> GetAllAmenitiesAsync()
         {
             var client = CreateAuthorizedClient();
             var res = await client.GetAsync("http://localhost:5202/api/amenity/all");
-            if (!res.IsSuccessStatusCode) return Enumerable.Empty<Amenity>();
-            return JsonConvert.DeserializeObject<IEnumerable<Amenity>>(await res.Content.ReadAsStringAsync());
+
+            if (!res.IsSuccessStatusCode)
+                return new List<Amenity>();
+
+            // Fix: Deserialize only the `$values` array
+            var raw = await res.Content.ReadAsStringAsync();
+            var parsed = JObject.Parse(raw); // Needs: using Newtonsoft.Json.Linq;
+            var values = parsed["$values"];
+
+            return values != null
+                ? values.ToObject<List<Amenity>>()
+                : new List<Amenity>();
         }
+
 
         public async Task<IEnumerable<Amenity>> GetAmenitiesByBusAsync(int busId)
         {
@@ -146,7 +159,11 @@ namespace MVC_UI.Services
             var client = CreateAuthorizedClient();
             var res = await client.GetAsync($"http://localhost:5202/api/bus/seats/{busId}");
             if (!res.IsSuccessStatusCode) return Enumerable.Empty<string>();
-            return JsonConvert.DeserializeObject<IEnumerable<string>>(await res.Content.ReadAsStringAsync());
+
+            var seats = JsonConvert.DeserializeObject<IEnumerable<Seat>>(await res.Content.ReadAsStringAsync());
+            if (seats == null) return Enumerable.Empty<string>(); // Handle possible null reference
+
+            return seats.Select(seat => seat.SeatNumber); // Explicitly convert Seat objects to strings
         }
 
         public async Task<bool> AddBusAsync(Bus bus)
@@ -210,5 +227,15 @@ namespace MVC_UI.Services
             var res = await client.PutAsync($"http://localhost:5202/api/busoperator/refund/{bookingId}", null);
             return res.IsSuccessStatusCode;
         }
+        public async Task<IEnumerable<DAL.Models.Route>> GetAllRoutesAsync()
+        {
+            var client = CreateAuthorizedClient();
+            var res = await client.GetAsync("http://localhost:5202/api/route/all");
+            if (!res.IsSuccessStatusCode) return new List<DAL.Models.Route>();
+            return JsonConvert.DeserializeObject<IEnumerable<DAL.Models.Route>>(await res.Content.ReadAsStringAsync());
+        }
+
+        
+
     }
 }

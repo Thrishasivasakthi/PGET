@@ -1,0 +1,10 @@
+﻿@model List<DAL.Models.Amenity>
+
+<h2>All Amenities</h2>
+
+<ul class="list-group">
+    @foreach (var amenity in Model)
+    {
+        <li class="list-group-item">@amenity.Name</li>
+    }
+</ul>

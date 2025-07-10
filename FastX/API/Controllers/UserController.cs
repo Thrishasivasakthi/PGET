@@ -35,6 +35,11 @@ namespace API.Controllers
 
             var user = await _userService.AuthenticateAsync(email, password);
 
+            if (user == null)
+            {
+                return Unauthorized("Invalid credentials");
+            }
+
             var token = GenerateJwtToken(user);
             return Ok(new { token, role = user.Role });
 

@@ -3,16 +3,132 @@
   "WorkspaceRootPath": "C:\\Users\\thris\\source\\repos\\FastX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\amenities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\amenities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\services\\adminapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\services\\adminapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\amenitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\amenitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\services\\amenityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\services\\amenityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\operatorbuses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\operatorbuses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\addroute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\addroute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\models\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\models\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\services\\routeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\services\\routeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\models\\addrouterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\models\\addrouterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\assignamenities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\assignamenities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\editbus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\editbus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\availableseats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\availableseats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\buscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\buscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\operatorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\operatorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\addbus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\addbus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\bookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\bookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\busesbyroute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\busesbyroute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\getbusbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\getbusbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\operatorbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\operatorbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\viewoperator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\viewoperator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\services\\busoperatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\services\\busoperatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\busoperatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\busoperatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\models\\operatordetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\models\\operatordetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +141,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\migrations\\20250709154754_modelupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\20250709154754_modelupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Migrations\\20250709155114_modelUpdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DAL\\Migrations\\20250709155114_modelUpdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,60 +191,20 @@
       "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\busoperatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\busoperatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\buscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\buscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\amenitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\amenitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\services\\adminapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\services\\adminapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -143,16 +215,8 @@
       "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\bookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\bookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -169,46 +233,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\operatorbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\operatorbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\getbusbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\getbusbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\busesbyroute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\busesbyroute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\operatorbuses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\operatorbuses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\operatorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\operatorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\availableseats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\availableseats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\editbus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\editbus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\assignamenities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\assignamenities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\addbus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\addbus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\views\\admin\\addroute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|solutionrelative:mvc_ui\\views\\admin\\addroute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49740BEE-A87A-43A9-8EEF-AE6A0EBA8369}|MVC_UI\\MVC_UI.csproj|c:\\users\\thris\\source\\repos\\fastx\\mvc_ui\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -271,10 +295,6 @@
       "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iamenityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\services\\amenityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\services\\amenityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|c:\\users\\thris\\source\\repos\\fastx\\api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{AA30721C-6DE9-4F84-AD92-41F0D3C207B1}|API\\API.csproj|solutionrelative:api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
@@ -283,16 +303,8 @@
       "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\services\\cancellationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\services\\busoperatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\services\\busoperatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\interfaces\\ibusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ibusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\services\\routeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\services\\routeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\interfaces\\irouteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -309,6 +321,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\models\\busamenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\models\\busamenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|c:\\users\\thris\\source\\repos\\fastx\\dal\\migrations\\20250709155114_modelupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645E336C-2EE9-4EC8-8024-C6E5B98DDB60}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\20250709155114_modelupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -318,7 +334,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -326,85 +342,358 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "DAL\\Models\\Booking.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Booking.cs",
-              "RelativeToolTip": "DAL\\Models\\Booking.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAkwCcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:57:48.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Bus.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Bus.cs",
-              "RelativeDocumentMoniker": "DAL\\Models\\Bus.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Bus.cs",
-              "RelativeToolTip": "DAL\\Models\\Bus.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswCwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:56:31.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Payment.cs",
-              "RelativeDocumentMoniker": "DAL\\Models\\Payment.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Payment.cs",
-              "RelativeToolTip": "DAL\\Models\\Payment.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA2wBMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:58:45.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:26:03.699Z",
+              "DocumentIndex": 0,
+              "Title": "Amenities.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\Amenities.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\Amenities.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\Amenities.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Admin\\Amenities.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T11:58:28.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "20250709155114_modelUpdate1.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Migrations\\20250709155114_modelUpdate1.cs",
-              "RelativeDocumentMoniker": "DAL\\Migrations\\20250709155114_modelUpdate1.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Migrations\\20250709155114_modelUpdate1.cs",
-              "RelativeToolTip": "DAL\\Migrations\\20250709155114_modelUpdate1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "OperatorBuses.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\OperatorBuses.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\OperatorBuses.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\OperatorBuses.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Admin\\OperatorBuses.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwCcAAACRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T15:46:48.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T16:06:33.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Admincontroller.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Controllers\\Admincontroller.cs",
+              "RelativeDocumentMoniker": "MVC_UI\\Controllers\\Admincontroller.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Controllers\\Admincontroller.cs",
+              "RelativeToolTip": "MVC_UI\\Controllers\\Admincontroller.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAwwFYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T15:51:14.2Z",
+              "WhenOpened": "2025-07-06T15:13:36.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AmenityService.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\AmenityService.cs",
+              "RelativeDocumentMoniker": "DAL\\Services\\AmenityService.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\AmenityService.cs",
+              "RelativeToolTip": "DAL\\Services\\AmenityService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T16:13:26.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AmenityController.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\AmenityController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AmenityController.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\AmenityController.cs",
+              "RelativeToolTip": "API\\Controllers\\AmenityController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:14:27.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminApiService.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Services\\AdminApiService.cs",
+              "RelativeDocumentMoniker": "MVC_UI\\Services\\AdminApiService.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Services\\AdminApiService.cs",
+              "RelativeToolTip": "MVC_UI\\Services\\AdminApiService.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAawHoAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T14:32:47.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddRoute.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AddRoute.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\AddRoute.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AddRoute.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Admin\\AddRoute.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T15:23:38.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Route.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Route.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\Route.cs",
               "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Route.cs",
               "RelativeToolTip": "DAL\\Models\\Route.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwAkAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T15:55:54.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "RouteService.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\RouteService.cs",
+              "RelativeDocumentMoniker": "DAL\\Services\\RouteService.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\RouteService.cs",
+              "RelativeToolTip": "DAL\\Services\\RouteService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T16:11:45.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BusController.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\BusController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\BusController.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\BusController.cs",
+              "RelativeToolTip": "API\\Controllers\\BusController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA3wE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:10:29.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EditBus.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\EditBus.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\EditBus.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\EditBus.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Admin\\EditBus.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T15:44:37.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddRouteRequest.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Models\\AddRouteRequest.cs",
+              "RelativeDocumentMoniker": "MVC_UI\\Models\\AddRouteRequest.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Models\\AddRouteRequest.cs",
+              "RelativeToolTip": "MVC_UI\\Models\\AddRouteRequest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T11:36:49.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RouteController.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\RouteController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\RouteController.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\RouteController.cs",
+              "RelativeToolTip": "API\\Controllers\\RouteController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:07:50.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AssignAmenities.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AssignAmenities.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\AssignAmenities.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AssignAmenities.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Admin\\AssignAmenities.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T15:44:10.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AvailableSeats.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AvailableSeats.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\AvailableSeats.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AvailableSeats.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Admin\\AvailableSeats.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T15:45:08.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OperatorProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\OperatorProfile.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\OperatorProfile.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\OperatorProfile.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Admin\\OperatorProfile.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T15:45:47.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddBus.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AddBus.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\AddBus.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AddBus.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Admin\\AddBus.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T15:39:33.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Bookings.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\Bookings.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\Bookings.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\Bookings.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Admin\\Bookings.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T15:21:52.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BusesByRoute.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\BusesByRoute.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\BusesByRoute.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\BusesByRoute.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Admin\\BusesByRoute.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T15:47:14.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T15:20:30.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetBusById.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\GetBusById.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\GetBusById.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\GetBusById.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Admin\\GetBusById.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T15:48:30.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OperatorBookings.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\OperatorBookings.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\OperatorBookings.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\OperatorBookings.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Admin\\OperatorBookings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T15:46:18.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ViewOperator.cshtml",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\ViewOperator.cshtml",
+              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\ViewOperator.cshtml",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\ViewOperator.cshtml",
+              "RelativeToolTip": "MVC_UI\\Views\\Admin\\ViewOperator.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T09:10:43.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BusOperatorService.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\BusOperatorService.cs",
+              "RelativeDocumentMoniker": "DAL\\Services\\BusOperatorService.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\BusOperatorService.cs",
+              "RelativeToolTip": "DAL\\Services\\BusOperatorService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T16:14:37.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BusOperatorController.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\BusOperatorController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\BusOperatorController.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\BusOperatorController.cs",
+              "RelativeToolTip": "API\\Controllers\\BusOperatorController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:18:05.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:05:56.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "BookingController.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\BookingController.cs",
@@ -412,12 +701,63 @@
               "RelativeToolTip": "API\\Controllers\\BookingController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:12:44.808Z",
+              "WhenOpened": "2025-06-23T17:12:44.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OperatorDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Models\\OperatorDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "MVC_UI\\Models\\OperatorDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Models\\OperatorDetailsViewModel.cs",
+              "RelativeToolTip": "MVC_UI\\Models\\OperatorDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:08:29.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 30,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "DAL\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\AdminService.cs",
+              "RelativeToolTip": "DAL\\Services\\AdminService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA/wBgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T16:15:11.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "DAL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\UserService.cs",
+              "RelativeToolTip": "DAL\\Services\\UserService.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAwwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T16:07:13.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "API\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:20:01.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "ApplicationDbContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Data\\ApplicationDbContextFactory.cs",
               "RelativeDocumentMoniker": "DAL\\Data\\ApplicationDbContextFactory.cs",
@@ -425,25 +765,71 @@
               "RelativeToolTip": "DAL\\Data\\ApplicationDbContextFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T15:47:29.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T15:47:29.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAiwDAAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 80,
+              "Title": "20250709155114_modelUpdate1.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Migrations\\20250709155114_modelUpdate1.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\20250709155114_modelUpdate1.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Migrations\\20250709155114_modelUpdate1.cs",
+              "RelativeToolTip": "DAL\\Migrations\\20250709155114_modelUpdate1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:05:56.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T15:51:14.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:26:03.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Payment.cs",
+              "RelativeToolTip": "DAL\\Models\\Payment.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA2wBMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T15:58:45.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Bus.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Bus.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Bus.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Bus.cs",
+              "RelativeToolTip": "DAL\\Models\\Bus.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T15:56:31.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Booking.cs",
+              "RelativeToolTip": "DAL\\Models\\Booking.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwCcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T15:57:48.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "Amenity.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Amenity.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\Amenity.cs",
@@ -451,12 +837,11 @@
               "RelativeToolTip": "DAL\\Models\\Amenity.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:59:34.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T15:59:34.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 38,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\appsettings.json",
               "RelativeDocumentMoniker": "DAL\\appsettings.json",
@@ -464,12 +849,11 @@
               "RelativeToolTip": "DAL\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-09T15:35:19.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T15:35:19.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 34,
               "Title": "20250709154754_modelUpdate.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Migrations\\20250709154754_modelUpdate.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\20250709154754_modelUpdate.cs",
@@ -477,12 +861,11 @@
               "RelativeToolTip": "DAL\\Migrations\\20250709154754_modelUpdate.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T15:47:55.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T15:47:55.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 43,
               "Title": "Cancellation.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Cancellation.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\Cancellation.cs",
@@ -490,12 +873,11 @@
               "RelativeToolTip": "DAL\\Models\\Cancellation.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAUwBMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:01:11.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T16:01:11.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 42,
               "Title": "Seat.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\Seat.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\Seat.cs",
@@ -503,12 +885,11 @@
               "RelativeToolTip": "DAL\\Models\\Seat.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAzwBgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:57:04.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T15:57:04.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 40,
               "Title": "BusOperator.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\BusOperator.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\BusOperator.cs",
@@ -516,12 +897,11 @@
               "RelativeToolTip": "DAL\\Models\\BusOperator.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAzwBMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:54:57.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T15:54:57.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 36,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DAL\\Data\\ApplicationDbContext.cs",
@@ -529,12 +909,11 @@
               "RelativeToolTip": "DAL\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAiwF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:20:25.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T16:20:25.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 37,
               "Title": "DbContextHelper.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Data\\DbContextHelper.cs",
               "RelativeDocumentMoniker": "DAL\\Data\\DbContextHelper.cs",
@@ -542,12 +921,11 @@
               "RelativeToolTip": "DAL\\Data\\DbContextHelper.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:22:56.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T16:22:56.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 39,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
@@ -555,12 +933,11 @@
               "RelativeToolTip": "API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-23T17:13:53.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T17:13:53.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 46,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\User.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\User.cs",
@@ -568,25 +945,11 @@
               "RelativeToolTip": "DAL\\Models\\User.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAswBcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:52:51.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T15:52:51.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RouteController.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\RouteController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\RouteController.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\RouteController.cs",
-              "RelativeToolTip": "API\\Controllers\\RouteController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:07:50.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 47,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\PaymentController.cs",
@@ -594,64 +957,11 @@
               "RelativeToolTip": "API\\Controllers\\PaymentController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAgwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:16:23.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T17:16:23.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BusOperatorController.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\BusOperatorController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\BusOperatorController.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\BusOperatorController.cs",
-              "RelativeToolTip": "API\\Controllers\\BusOperatorController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwEsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:18:05.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BusController.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\BusController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\BusController.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\BusController.cs",
-              "RelativeToolTip": "API\\Controllers\\BusController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowE0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:10:29.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AmenityController.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\AmenityController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\AmenityController.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\AmenityController.cs",
-              "RelativeToolTip": "API\\Controllers\\AmenityController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAA3wCgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:14:27.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\API\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "API\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAqwAoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:20:01.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 48,
               "Title": "DAL.csproj",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\DAL.csproj",
               "RelativeDocumentMoniker": "DAL\\DAL.csproj",
@@ -663,7 +973,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 53,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "MVC_UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -675,55 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\Dashboard.cshtml",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\Dashboard.cshtml",
-              "RelativeToolTip": "MVC_UI\\Views\\Admin\\Dashboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T15:20:30.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AdminApiService.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Services\\AdminApiService.cs",
-              "RelativeDocumentMoniker": "MVC_UI\\Services\\AdminApiService.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Services\\AdminApiService.cs",
-              "RelativeToolTip": "MVC_UI\\Services\\AdminApiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T14:32:47.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Admincontroller.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Controllers\\Admincontroller.cs",
-              "RelativeDocumentMoniker": "MVC_UI\\Controllers\\Admincontroller.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Controllers\\Admincontroller.cs",
-              "RelativeToolTip": "MVC_UI\\Controllers\\Admincontroller.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwJ8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T15:13:36.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AdminService.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\AdminService.cs",
-              "RelativeDocumentMoniker": "DAL\\Services\\AdminService.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\AdminService.cs",
-              "RelativeToolTip": "DAL\\Services\\AdminService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:15:11.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 49,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "MVC_UI\\Controllers\\AccountController.cs",
@@ -735,7 +997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 50,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "MVC_UI\\Views\\_ViewImports.cshtml",
@@ -747,7 +1009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 52,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Program.cs",
               "RelativeDocumentMoniker": "MVC_UI\\Program.cs",
@@ -759,31 +1021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "DAL\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\UserService.cs",
-              "RelativeToolTip": "DAL\\Services\\UserService.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAwwFsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:07:13.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Bookings.cshtml",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\Bookings.cshtml",
-              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\Bookings.cshtml",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\Bookings.cshtml",
-              "RelativeToolTip": "MVC_UI\\Views\\Admin\\Bookings.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T15:21:52.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 54,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "MVC_UI\\Views\\Account\\Login.cshtml",
@@ -795,19 +1033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MVC_UI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MVC_UI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T16:06:33.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 51,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MVC_UI\\Controllers\\HomeController.cs",
@@ -819,7 +1045,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 55,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "MVC_UI\\Views\\_ViewStart.cshtml",
@@ -831,7 +1057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 57,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "MVC_UI\\Views\\Home\\Privacy.cshtml",
@@ -843,7 +1069,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 56,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC_UI\\Views\\Home\\Index.cshtml",
@@ -855,127 +1081,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "OperatorBookings.cshtml",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\OperatorBookings.cshtml",
-              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\OperatorBookings.cshtml",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\OperatorBookings.cshtml",
-              "RelativeToolTip": "MVC_UI\\Views\\Admin\\OperatorBookings.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T15:46:18.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "GetBusById.cshtml",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\GetBusById.cshtml",
-              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\GetBusById.cshtml",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\GetBusById.cshtml",
-              "RelativeToolTip": "MVC_UI\\Views\\Admin\\GetBusById.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T15:48:30.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "BusesByRoute.cshtml",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\BusesByRoute.cshtml",
-              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\BusesByRoute.cshtml",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\BusesByRoute.cshtml",
-              "RelativeToolTip": "MVC_UI\\Views\\Admin\\BusesByRoute.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T15:47:14.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "OperatorBuses.cshtml",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\OperatorBuses.cshtml",
-              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\OperatorBuses.cshtml",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\OperatorBuses.cshtml",
-              "RelativeToolTip": "MVC_UI\\Views\\Admin\\OperatorBuses.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T15:46:48.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "OperatorProfile.cshtml",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\OperatorProfile.cshtml",
-              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\OperatorProfile.cshtml",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\OperatorProfile.cshtml",
-              "RelativeToolTip": "MVC_UI\\Views\\Admin\\OperatorProfile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T15:45:47.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "AvailableSeats.cshtml",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AvailableSeats.cshtml",
-              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\AvailableSeats.cshtml",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AvailableSeats.cshtml",
-              "RelativeToolTip": "MVC_UI\\Views\\Admin\\AvailableSeats.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T15:45:08.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "EditBus.cshtml",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\EditBus.cshtml",
-              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\EditBus.cshtml",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\EditBus.cshtml",
-              "RelativeToolTip": "MVC_UI\\Views\\Admin\\EditBus.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T15:44:37.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "AssignAmenities.cshtml",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AssignAmenities.cshtml",
-              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\AssignAmenities.cshtml",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AssignAmenities.cshtml",
-              "RelativeToolTip": "MVC_UI\\Views\\Admin\\AssignAmenities.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T15:44:10.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "AddBus.cshtml",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AddBus.cshtml",
-              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\AddBus.cshtml",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AddBus.cshtml",
-              "RelativeToolTip": "MVC_UI\\Views\\Admin\\AddBus.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T15:39:33.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "AddRoute.cshtml",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AddRoute.cshtml",
-              "RelativeDocumentMoniker": "MVC_UI\\Views\\Admin\\AddRoute.cshtml",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Views\\Admin\\AddRoute.cshtml",
-              "RelativeToolTip": "MVC_UI\\Views\\Admin\\AddRoute.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T15:23:38.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 58,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Models\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "MVC_UI\\Models\\LoginViewModel.cs",
@@ -987,7 +1093,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 59,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\MVC_UI\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "MVC_UI\\Models\\ErrorViewModel.cs",
@@ -999,7 +1105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 60,
               "Title": "API.csproj",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\API.csproj",
               "RelativeDocumentMoniker": "API\\API.csproj",
@@ -1011,7 +1117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 61,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IUserService.cs",
@@ -1023,7 +1129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 63,
               "Title": "BusService.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\BusService.cs",
               "RelativeDocumentMoniker": "DAL\\Services\\BusService.cs",
@@ -1035,7 +1141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 62,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Class1.cs",
               "RelativeDocumentMoniker": "DAL\\Class1.cs",
@@ -1047,7 +1153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 64,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\PaymentService.cs",
               "RelativeDocumentMoniker": "DAL\\Services\\PaymentService.cs",
@@ -1059,7 +1165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 65,
               "Title": "BookingService.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\BookingService.cs",
               "RelativeDocumentMoniker": "DAL\\Services\\BookingService.cs",
@@ -1071,7 +1177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 66,
               "Title": "IBookingService.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Interfaces\\IBookingService.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IBookingService.cs",
@@ -1083,7 +1189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 67,
               "Title": "IPaymentService.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Interfaces\\IPaymentService.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IPaymentService.cs",
@@ -1095,7 +1201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 68,
               "Title": "IAdminService.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Interfaces\\IAdminService.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IAdminService.cs",
@@ -1107,7 +1213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 70,
               "Title": "20250623174458_Initial_create_2.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Migrations\\20250623174458_Initial_create_2.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\20250623174458_Initial_create_2.cs",
@@ -1118,7 +1224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 69,
               "Title": "20250624025137_InitialCreate1.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Migrations\\20250624025137_InitialCreate1.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\20250624025137_InitialCreate1.cs",
@@ -1129,7 +1235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 71,
               "Title": "20250623174045_Initial_create.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Migrations\\20250623174045_Initial_create.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\20250623174045_Initial_create.cs",
@@ -1140,7 +1246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 72,
               "Title": "IAmenityService.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Interfaces\\IAmenityService.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IAmenityService.cs",
@@ -1152,19 +1258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "AmenityService.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\AmenityService.cs",
-              "RelativeDocumentMoniker": "DAL\\Services\\AmenityService.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\AmenityService.cs",
-              "RelativeToolTip": "DAL\\Services\\AmenityService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:13:26.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 73,
               "Title": "API.http",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\API\\API.http",
               "RelativeDocumentMoniker": "API\\API.http",
@@ -1176,7 +1270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 74,
               "Title": "CancellationService.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\CancellationService.cs",
               "RelativeDocumentMoniker": "DAL\\Services\\CancellationService.cs",
@@ -1188,31 +1282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "BusOperatorService.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\BusOperatorService.cs",
-              "RelativeDocumentMoniker": "DAL\\Services\\BusOperatorService.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\BusOperatorService.cs",
-              "RelativeToolTip": "DAL\\Services\\BusOperatorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:14:37.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "RouteService.cs",
-              "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\RouteService.cs",
-              "RelativeDocumentMoniker": "DAL\\Services\\RouteService.cs",
-              "ToolTip": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Services\\RouteService.cs",
-              "RelativeToolTip": "DAL\\Services\\RouteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:11:45.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 77,
               "Title": "ICancellationService.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Interfaces\\ICancellationService.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\ICancellationService.cs",
@@ -1224,7 +1294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 75,
               "Title": "IBusService.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Interfaces\\IBusService.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IBusService.cs",
@@ -1236,7 +1306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 76,
               "Title": "IRouteService.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Interfaces\\IRouteService.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IRouteService.cs",
@@ -1248,7 +1318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 78,
               "Title": "IBusOperatorService.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Interfaces\\IBusOperatorService.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IBusOperatorService.cs",
@@ -1260,7 +1330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 79,
               "Title": "BusAmenity.cs",
               "DocumentMoniker": "C:\\Users\\thris\\source\\repos\\FastX\\DAL\\Models\\BusAmenity.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\BusAmenity.cs",

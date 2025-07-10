@@ -11,10 +11,12 @@ namespace API.Controllers
     public class RouteController : ControllerBase
     {
         private readonly IRouteService _routeService;
+        private readonly IBusService _busService;
 
-        public RouteController(IRouteService routeService)
+        public RouteController(IRouteService routeService, IBusService busService)
         {
             _routeService = routeService;
+            _busService = busService;
         }
 
         // api/route/add
@@ -30,6 +32,20 @@ namespace API.Controllers
             {
                 return BadRequest(new { message = ex.Message });
             }
+        }
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllRoutes()
+        {
+            var routes = await _routeService.GetAllRoutesAsync();
+            return Ok(routes);
+        }
+
+        [HttpGet("bus/{id}")]
+        public async Task<IActionResult> GetBusById(int id)
+        {
+            var bus = await _busService.GetBusByIdAsync(id);
+            if (bus == null) return NotFound();
+            return Ok(bus);
         }
     }
 }
