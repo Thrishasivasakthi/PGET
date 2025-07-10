@@ -110,6 +110,7 @@ SELECT * FROM Payment
 
 
 --query_1
+--Update the daily rate for a Mercedes car to 68.
 
 UPDATE vehicle
 SET dailyRate=68.00
@@ -119,28 +120,33 @@ SELECT * FROM Vehicle WHERE make='Mercedes'
 
 
 --query_2
+-- Delete a specific customer and all associated leases and payments.
 
 DELETE FROM Customer
 WHERE customerID = 1
 
 --query_3
+--Rename the "paymentDate" column in the Payment table to "transactionDate".
 
 Exec sp_rename 'Payment.paymentDate', 'transactionDate','COLUMN'
 
 SELECT transactionDate FROM Payment
 
 --query_4
+--Find a specific customer by email. 
 
 SELECT CONCAT(firstName,SPACE(1),lastName) AS CUSTOMERNAME
 FROM Customer
 WHERE email='robert@example.com'
 
 --query_5
+--Get active leases for a specific customer.
 
 SELECT * FROM Lease
 WHERE customerID = 4 AND GETDATE() BETWEEN startDate AND endDate
 
 --query_6
+--Find all payments made by a customer with a specific phone number.
 
 SELECT P.* FROM Payment p JOIN Lease l 
 ON p.leaseID=l.leaseID JOIN
@@ -148,11 +154,13 @@ Customer c ON l.customerID=c.customerID
 WHERE phoneNumber='555-123-4567'
 
 --query_7
+--Calculate the average daily rate of all available cars. 
 
 SELECT AVG(dailyRate) AS AverageRate FROM vehicle
 WHERE available = 1
 
 --query_8
+--Find the car with the highest daily rate. 
 
 
 SELECT TOP 1 dailyRate,vehicleID
@@ -161,22 +169,27 @@ ORDER BY  dailyRate DESC
 
 
 --query_9
+--Retrieve all cars leased by a specific customer.
+
 SELECT v.* FROM Vehicle v
 JOIN Lease l ON v.vehicleID = l.vehicleID
 WHERE l.customerID = 3
 
 --query_10
+-- Find the details of the most recent lease.
 
 SELECT TOP 1 *
 FROM Lease
 ORDER BY endDate DESC
 
 --query_11
+--List all payments made in the year 2023. 
 
 SELECT * FROM Payment
 WHERE YEAR(transactionDate) = 2023
 
 --query_12
+--  Retrieve customers who have not made any payments.
 
 SELECT C.* FROM Customer c 
 WHERE NOT EXISTS( 
@@ -187,7 +200,7 @@ WHERE NOT EXISTS(
 	)
 
 --query_13
-
+-- Retrieve Car Details and Their Total Payments.
 SELECT v.make,v.model,v.year,v.dailyRate,v.passengerCapacity,v.engineCapacity,SUM(p.amount) AS TOTALPAYMENT FROM Vehicle v 
 JOIN Lease l ON v.vehicleID=l.vehicleID
 JOIN Payment p ON l.leaseID=p.leaseID
@@ -195,6 +208,7 @@ GROUP BY v.make,v.model,v.year,v.dailyRate,v.passengerCapacity,v.engineCapacity
 
 
 --query_14
+-- Calculate Total Payments for Each Customer. 
 
 SELECT CONCAT(c.firstName,SPACE(1),c.lastName) AS CUSTOMER_NAME, SUM(p.amount) AS TotalPaid
 FROM Customer c
@@ -203,6 +217,7 @@ JOIN Payment p ON l.leaseID = p.leaseID
 GROUP BY c.firstName, c.lastName
 
 --query_15
+--List Car Details for Each Lease. 
 
 SELECT l.leaseID, v.make, v.model, v.year, l.startDate, l.endDate
 FROM Lease l
@@ -210,6 +225,7 @@ JOIN Vehicle v ON l.vehicleID = v.vehicleID
 
 
 --query_16
+--Retrieve Details of Active Leases with Customer and Car Information.
 
 SELECT l.leaseID, c.firstName, c.lastName, v.make, v.model, l.startDate, l.endDate
 FROM Lease l
@@ -219,6 +235,7 @@ WHERE GETDATE() BETWEEN l.startDate AND l.endDate
 
 
 --query_17
+-- Find the Customer Who Has Spent the Most on Leases.
 
 SELECT TOP 1 c.firstName, c.lastName, SUM(p.amount) AS TotalSpent
 FROM Customer c
@@ -229,6 +246,7 @@ ORDER BY TotalSpent DESC
 
 
 --query_18
+-- List All Cars with Their Current Lease Information.
 
 SELECT v.make, v.model, l.startDate, l.endDate, c.firstName, c.lastName
 FROM Vehicle v
