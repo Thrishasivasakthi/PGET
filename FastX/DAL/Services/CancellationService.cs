@@ -19,8 +19,8 @@ namespace FastX.DAL.Services
                 .Include(b => b.Payment)
                 .FirstOrDefaultAsync(b => b.Id == bookingId);
 
-            if (booking == null || booking.Status == "Cancelled")
-                throw new Exception("Booking not found or already cancelled.");
+            if (booking == null )
+                throw new Exception("Booking not found ");
 
             // Update booking status
             booking.Status = "Cancelled";

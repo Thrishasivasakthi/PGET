@@ -47,24 +47,16 @@ namespace MVC_UI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddRoute(AddRouteRequest routeRequest)
+        public async Task<IActionResult> AddRoute(DAL.Models.Route route)
         {
-            if (!ModelState.IsValid) return View(routeRequest);
-
-            var route = new DAL.Models.Route
-            {
-                Origin = routeRequest.Origin,
-                Destination = routeRequest.Destination,
-                DepartureTime = routeRequest.DepartureTime,
-                ArrivalTime = routeRequest.ArrivalTime,
-                Fare = routeRequest.Fare
-            };
+            
 
             var success = await _apiService.AddRouteAsync(route);
+            TempData["Message"] = success ? "Route Added Successfully." : " failed.";
             if (success) return RedirectToAction("Dashboard");
 
             ViewBag.Error = "Failed to add route.";
-            return View(routeRequest);
+            return View(route);
         }
 
 

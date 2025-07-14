@@ -5,10 +5,20 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Admin/users": {
+    "/api/v{version}/Admin/users": {
       "get": {
         "tags": [
           "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -17,10 +27,20 @@
         }
       }
     },
-    "/api/Admin/operators": {
+    "/api/v{version}/Admin/operators": {
       "get": {
         "tags": [
           "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -29,7 +49,7 @@
         }
       }
     },
-    "/api/Admin/user/{userId}": {
+    "/api/v{version}/Admin/user/{userId}": {
       "delete": {
         "tags": [
           "Admin"
@@ -43,6 +63,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -52,7 +80,7 @@
         }
       }
     },
-    "/api/Admin/operator/{operatorId}": {
+    "/api/v{version}/Admin/operator/{operatorId}": {
       "delete": {
         "tags": [
           "Admin"
@@ -66,6 +94,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -75,11 +111,21 @@
         }
       }
     },
-    "/api/Admin/bookings": {
+    "/api/v{version}/Admin/bookings": {
       "get": {
         "tags": [
           "Admin"
         ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -87,10 +133,20 @@
         }
       }
     },
-    "/api/Admin/add-route": {
+    "/api/v{version}/Admin/add-route": {
       "post": {
         "tags": [
           "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -118,10 +174,20 @@
         }
       }
     },
-    "/api/Amenity/all": {
+    "/api/v{version}/Amenity/all": {
       "get": {
         "tags": [
           "Amenity"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -130,7 +196,7 @@
         }
       }
     },
-    "/api/Amenity/bus/{busId}": {
+    "/api/v{version}/Amenity/bus/{busId}": {
       "get": {
         "tags": [
           "Amenity"
@@ -144,6 +210,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -153,7 +227,7 @@
         }
       }
     },
-    "/api/Amenity/assign": {
+    "/api/v{version}/Amenity/assign": {
       "post": {
         "tags": [
           "Amenity"
@@ -165,6 +239,14 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
         ],
@@ -206,7 +288,7 @@
         }
       }
     },
-    "/api/Booking/book": {
+    "/api/v{version}/Booking/book": {
       "post": {
         "tags": [
           "Booking"
@@ -227,6 +309,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "requestBody": {
@@ -264,7 +354,7 @@
         }
       }
     },
-    "/api/Booking/cancel/{bookingId}": {
+    "/api/v{version}/Booking/cancel/{bookingId}": {
       "put": {
         "tags": [
           "Booking"
@@ -285,6 +375,14 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -294,7 +392,7 @@
         }
       }
     },
-    "/api/Booking/{bookingId}": {
+    "/api/v{version}/Booking/{bookingId}": {
       "get": {
         "tags": [
           "Booking"
@@ -308,6 +406,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -317,7 +423,7 @@
         }
       }
     },
-    "/api/Booking/user/{userId}": {
+    "/api/v{version}/Booking/user/{userId}": {
       "get": {
         "tags": [
           "Booking"
@@ -331,6 +437,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -340,7 +454,7 @@
         }
       }
     },
-    "/api/Bus/{id}": {
+    "/api/v{version}/Bus/{id}": {
       "get": {
         "tags": [
           "Bus"
@@ -354,6 +468,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -363,7 +485,7 @@
         }
       }
     },
-    "/api/Bus/route/{routeId}/date/{date}": {
+    "/api/v{version}/Bus/route/{routeId}/date/{date}": {
       "get": {
         "tags": [
           "Bus"
@@ -386,6 +508,14 @@
               "type": "string",
               "format": "date-time"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -395,7 +525,7 @@
         }
       }
     },
-    "/api/Bus/seats/{busId}": {
+    "/api/v{version}/Bus/seats/{busId}": {
       "get": {
         "tags": [
           "Bus"
@@ -409,6 +539,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -418,41 +556,20 @@
         }
       }
     },
-    "/api/Bus/add": {
+    "/api/v{version}/Bus/add": {
       "post": {
         "tags": [
           "Bus"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Bus"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Bus"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Bus"
-              }
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Bus/update": {
-      "put": {
-        "tags": [
-          "Bus"
         ],
         "requestBody": {
           "content": {
@@ -480,7 +597,48 @@
         }
       }
     },
-    "/api/BusOperator/profile/{userId}": {
+    "/api/v{version}/Bus/update": {
+      "put": {
+        "tags": [
+          "Bus"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Bus"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Bus"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Bus"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v{version}/BusOperator/profile/{userId}": {
       "get": {
         "tags": [
           "BusOperator"
@@ -494,6 +652,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -503,7 +669,7 @@
         }
       }
     },
-    "/api/BusOperator/buses/{operatorId}": {
+    "/api/v{version}/BusOperator/buses/{operatorId}": {
       "get": {
         "tags": [
           "BusOperator"
@@ -517,6 +683,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -526,7 +700,7 @@
         }
       }
     },
-    "/api/BusOperator/bookings/{operatorId}": {
+    "/api/v{version}/BusOperator/bookings/{operatorId}": {
       "get": {
         "tags": [
           "BusOperator"
@@ -540,6 +714,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -549,41 +731,20 @@
         }
       }
     },
-    "/api/BusOperator/add-bus": {
+    "/api/v{version}/BusOperator/add-bus": {
       "post": {
         "tags": [
           "BusOperator"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Bus"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Bus"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Bus"
-              }
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/BusOperator/edit-bus": {
-      "put": {
-        "tags": [
-          "BusOperator"
         ],
         "requestBody": {
           "content": {
@@ -611,7 +772,48 @@
         }
       }
     },
-    "/api/BusOperator/refund/{bookingId}": {
+    "/api/v{version}/BusOperator/edit-bus": {
+      "put": {
+        "tags": [
+          "BusOperator"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Bus"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Bus"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Bus"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v{version}/BusOperator/refund/{bookingId}": {
       "put": {
         "tags": [
           "BusOperator"
@@ -625,6 +827,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -634,10 +844,20 @@
         }
       }
     },
-    "/api/Payment/process": {
+    "/api/v{version}/Payment/process": {
       "post": {
         "tags": [
           "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -665,7 +885,7 @@
         }
       }
     },
-    "/api/Payment/booking/{bookingId}": {
+    "/api/v{version}/Payment/booking/{bookingId}": {
       "get": {
         "tags": [
           "Payment"
@@ -679,6 +899,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -688,7 +916,7 @@
         }
       }
     },
-    "/api/Payment/refund/{bookingId}": {
+    "/api/v{version}/Payment/refund/{bookingId}": {
       "put": {
         "tags": [
           "Payment"
@@ -710,6 +938,14 @@
               "type": "number",
               "format": "double"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -719,10 +955,64 @@
         }
       }
     },
-    "/api/Route/add": {
+    "/api/v{version}/Route/search": {
+      "get": {
+        "tags": [
+          "Route"
+        ],
+        "parameters": [
+          {
+            "name": "origin",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "destination",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v{version}/Route/add": {
       "post": {
         "tags": [
           "Route"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -750,10 +1040,20 @@
         }
       }
     },
-    "/api/Route/all": {
+    "/api/v{version}/Route/all": {
       "get": {
         "tags": [
           "Route"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -762,7 +1062,7 @@
         }
       }
     },
-    "/api/Route/bus/{id}": {
+    "/api/v{version}/Route/bus/{id}": {
       "get": {
         "tags": [
           "Route"
@@ -776,6 +1076,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -785,10 +1093,20 @@
         }
       }
     },
-    "/api/User/login": {
+    "/api/v{version}/User/login": {
       "post": {
         "tags": [
           "User"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -825,10 +1143,20 @@
         }
       }
     },
-    "/api/User/register": {
+    "/api/v{version}/User/register": {
       "post": {
         "tags": [
           "User"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -856,7 +1184,7 @@
         }
       }
     },
-    "/api/User/profile/{id}": {
+    "/api/v{version}/User/profile/{id}": {
       "get": {
         "tags": [
           "User"
@@ -870,6 +1198,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -879,11 +1215,21 @@
         }
       }
     },
-    "/api/User/profile": {
+    "/api/v{version}/User/profile": {
       "put": {
         "tags": [
           "User"
         ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "requestBody": {
           "content": {
             "application/json": {
@@ -910,7 +1256,7 @@
         }
       }
     },
-    "/api/User/bookings/{userId}": {
+    "/api/v{version}/User/bookings/{userId}": {
       "get": {
         "tags": [
           "User"
@@ -924,6 +1270,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -933,7 +1287,7 @@
         }
       }
     },
-    "/api/User/cancel-booking/{bookingId}": {
+    "/api/v{version}/User/cancel-booking/{bookingId}": {
       "put": {
         "tags": [
           "User"
@@ -946,6 +1300,14 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
         ],

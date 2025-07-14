@@ -1,0 +1,52 @@
+2025-07-10 22:01:49,786 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5202
+2025-07-10 22:01:49,848 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-07-10 22:01:49,849 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-07-10 22:01:49,849 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\thris\source\repos\FastX\API
+2025-07-10 22:02:58,770 [12] WARN  Microsoft.EntityFrameworkCore.Model.Validation - No store type was specified for the decimal property 'TotalAmount' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-07-10 22:02:58,773 [12] WARN  Microsoft.EntityFrameworkCore.Model.Validation - No store type was specified for the decimal property 'RefundAmount' on entity type 'Cancellation'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-07-10 22:02:58,773 [12] WARN  Microsoft.EntityFrameworkCore.Model.Validation - No store type was specified for the decimal property 'Fare' on entity type 'Route'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-07-10 22:02:59,981 [18] INFO  Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (186ms) [Parameters=[@__email_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FullName], [u].[PasswordHash], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-07-10 22:03:00,071 [18] INFO  API.Controllers.UserController - User login attempt for email: admin@example.com
+2025-07-10 22:03:00,071 [18] INFO  API.Controllers.UserController - User admin@example.com authenticated successfully.
+2025-07-10 22:03:00,072 [18] INFO  API.Controllers.UserController - Generating JWT token for user: admin@example.com
+2025-07-10 22:03:00,072 [18] INFO  API.Controllers.UserController - Claims created for user: admin@example.com
+2025-07-10 22:03:00,076 [18] INFO  API.Controllers.UserController - JWT token created for user: admin@example.com
+2025-07-10 22:03:00,108 [18] INFO  API.Controllers.UserController - JWT token generated for user admin@example.com.
+2025-07-10 22:03:30,939 [18] INFO  API.Controllers.AdminController - Fetching all users...
+2025-07-10 22:03:31,009 [9] INFO  Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Email], [u].[FullName], [u].[PasswordHash], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Role] = N'User'
+2025-07-10 22:03:31,011 [9] INFO  API.Controllers.AdminController - Fetched 3 users.
+2025-07-10 22:16:37,414 [1] INFO  Program - 🚀 Log4Net configured successfully.
+2025-07-10 22:16:38,501 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5202
+2025-07-10 22:16:38,577 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-07-10 22:16:38,577 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-07-10 22:16:38,577 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\thris\source\repos\FastX\API
+2025-07-10 22:17:42,100 [18] WARN  Microsoft.EntityFrameworkCore.Model.Validation - No store type was specified for the decimal property 'TotalAmount' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-07-10 22:17:42,107 [18] WARN  Microsoft.EntityFrameworkCore.Model.Validation - No store type was specified for the decimal property 'RefundAmount' on entity type 'Cancellation'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-07-10 22:17:42,107 [18] WARN  Microsoft.EntityFrameworkCore.Model.Validation - No store type was specified for the decimal property 'Fare' on entity type 'Route'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-07-10 22:17:43,326 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (212ms) [Parameters=[@__email_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FullName], [u].[PasswordHash], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-07-10 22:17:43,394 [7] INFO  API.Controllers.UserController - User login attempt for email: admin@example.com
+2025-07-10 22:17:43,394 [7] INFO  API.Controllers.UserController - User admin@example.com authenticated successfully.
+2025-07-10 22:17:43,394 [7] INFO  API.Controllers.UserController - Generating JWT token for user: admin@example.com
+2025-07-10 22:17:43,395 [7] INFO  API.Controllers.UserController - Claims created for user: admin@example.com
+2025-07-10 22:17:43,401 [7] INFO  API.Controllers.UserController - JWT token created for user: admin@example.com
+2025-07-10 22:17:43,427 [7] INFO  API.Controllers.UserController - JWT token generated for user admin@example.com.
+2025-07-10 22:18:21,773 [18] INFO  API.Controllers.AdminController - Fetching all users...
+2025-07-10 22:18:21,863 [17] INFO  Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (28ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Email], [u].[FullName], [u].[PasswordHash], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Role] = N'User'
+2025-07-10 22:18:21,867 [17] INFO  API.Controllers.AdminController - Fetched 3 users.
+2025-07-10 22:18:33,329 [17] INFO  API.Controllers.AmenityController - Fetching all amenities...
+2025-07-10 22:18:33,400 [12] INFO  Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name]
+FROM [Amenities] AS [a]
+2025-07-10 22:18:33,406 [12] INFO  API.Controllers.AmenityController - Retrieved 4 amenities.

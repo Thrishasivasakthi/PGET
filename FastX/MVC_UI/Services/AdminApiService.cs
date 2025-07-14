@@ -39,7 +39,7 @@ namespace MVC_UI.Services
         public async Task<IEnumerable<User>> GetAllUsersAsync()
         {
             var client = CreateAuthorizedClient();
-            var res = await client.GetAsync("http://localhost:5202/api/admin/users");
+            var res = await client.GetAsync("http://localhost:5202/api/v1/admin/users");
             if (!res.IsSuccessStatusCode) return Enumerable.Empty<User>();
             return JsonConvert.DeserializeObject<IEnumerable<User>>(await res.Content.ReadAsStringAsync());
         }
@@ -47,7 +47,7 @@ namespace MVC_UI.Services
         public async Task<bool> DeleteUserAsync(int userId)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.DeleteAsync($"http://localhost:5202/api/admin/user/{userId}");
+            var res = await client.DeleteAsync($"http://localhost:5202/api/v1/admin/user/{userId}");
             return res.IsSuccessStatusCode;
         }
 
@@ -56,7 +56,7 @@ namespace MVC_UI.Services
             try
             {
                 var client = CreateAuthorizedClient();
-                var res = await client.GetAsync("http://localhost:5202/api/admin/operators");
+                var res = await client.GetAsync("http://localhost:5202/api/v1/admin/operators");
 
                 if (!res.IsSuccessStatusCode)
                 {
@@ -79,14 +79,14 @@ namespace MVC_UI.Services
         public async Task<bool> DeleteOperatorAsync(int operatorId)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.DeleteAsync($"http://localhost:5202/api/admin/operator/{operatorId}");
+            var res = await client.DeleteAsync($"http://localhost:5202/api/v1/admin/operator/{operatorId}");
             return res.IsSuccessStatusCode;
         }
 
         public async Task<IEnumerable<Booking>> GetAllBookingsAsync()
         {
             var client = CreateAuthorizedClient();
-            var res = await client.GetAsync("http://localhost:5202/api/admin/bookings");
+            var res = await client.GetAsync("http://localhost:5202/api/v1/admin/bookings");
             if (!res.IsSuccessStatusCode) return Enumerable.Empty<Booking>();
             return JsonConvert.DeserializeObject<IEnumerable<Booking>>(await res.Content.ReadAsStringAsync());
         }
@@ -94,7 +94,7 @@ namespace MVC_UI.Services
         public async Task<bool> AddRouteAsync(DAL.Models.Route route)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.PostAsJsonAsync("http://localhost:5202/api/admin/add-route", route);
+            var res = await client.PostAsJsonAsync("http://localhost:5202/api/v1/admin/add-route", route);
             return res.IsSuccessStatusCode;
         }
 
@@ -104,7 +104,7 @@ namespace MVC_UI.Services
         public async Task<List<Amenity>> GetAllAmenitiesAsync()
         {
             var client = CreateAuthorizedClient();
-            var res = await client.GetAsync("http://localhost:5202/api/amenity/all");
+            var res = await client.GetAsync("http://localhost:5202/api/v1/amenity/all");
 
             if (!res.IsSuccessStatusCode)
                 return new List<Amenity>();
@@ -123,7 +123,7 @@ namespace MVC_UI.Services
         public async Task<IEnumerable<Amenity>> GetAmenitiesByBusAsync(int busId)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.GetAsync($"http://localhost:5202/api/amenity/bus/{busId}");
+            var res = await client.GetAsync($"http://localhost:5202/api/v1/amenity/bus/{busId}");
             if (!res.IsSuccessStatusCode) return Enumerable.Empty<Amenity>();
             return JsonConvert.DeserializeObject<IEnumerable<Amenity>>(await res.Content.ReadAsStringAsync());
         }
@@ -131,7 +131,7 @@ namespace MVC_UI.Services
         public async Task<bool> AssignAmenitiesToBusAsync(int busId, List<int> amenityIds)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.PostAsJsonAsync($"http://localhost:5202/api/amenity/assign?busId={busId}", amenityIds);
+            var res = await client.PostAsJsonAsync($"http://localhost:5202/api/v1/amenity/assign?busId={busId}", amenityIds);
             return res.IsSuccessStatusCode;
         }
 
@@ -141,7 +141,7 @@ namespace MVC_UI.Services
         public async Task<Bus> GetBusByIdAsync(int busId)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.GetAsync($"http://localhost:5202/api/bus/{busId}");
+            var res = await client.GetAsync($"http://localhost:5202/api/v1/bus/{busId}");
             if (!res.IsSuccessStatusCode) return null;
             return JsonConvert.DeserializeObject<Bus>(await res.Content.ReadAsStringAsync());
         }
@@ -149,7 +149,7 @@ namespace MVC_UI.Services
         public async Task<IEnumerable<Bus>> GetAvailableBusesAsync(int routeId, DateTime date)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.GetAsync($"http://localhost:5202/api/bus/route/{routeId}/date/{date:yyyy-MM-dd}");
+            var res = await client.GetAsync($"http://localhost:5202/api/v1/bus/route/{routeId}/date/{date:yyyy-MM-dd}");
             if (!res.IsSuccessStatusCode) return Enumerable.Empty<Bus>();
             return JsonConvert.DeserializeObject<IEnumerable<Bus>>(await res.Content.ReadAsStringAsync());
         }
@@ -157,7 +157,7 @@ namespace MVC_UI.Services
         public async Task<IEnumerable<string>> GetAvailableSeatsAsync(int busId)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.GetAsync($"http://localhost:5202/api/bus/seats/{busId}");
+            var res = await client.GetAsync($"http://localhost:5202/api/v1/bus/seats/{busId}");
             if (!res.IsSuccessStatusCode) return Enumerable.Empty<string>();
 
             var seats = JsonConvert.DeserializeObject<IEnumerable<Seat>>(await res.Content.ReadAsStringAsync());
@@ -169,14 +169,14 @@ namespace MVC_UI.Services
         public async Task<bool> AddBusAsync(Bus bus)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.PostAsJsonAsync("http://localhost:5202/api/bus/add", bus);
+            var res = await client.PostAsJsonAsync("http://localhost:5202/api/v1/bus/add", bus);
             return res.IsSuccessStatusCode;
         }
 
         public async Task<bool> UpdateBusAsync(Bus bus)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.PutAsJsonAsync("http://localhost:5202/api/bus/update", bus);
+            var res = await client.PutAsJsonAsync("http://localhost:5202/api/v1/bus/update", bus);
             return res.IsSuccessStatusCode;
         }
 
@@ -186,7 +186,7 @@ namespace MVC_UI.Services
         public async Task<BusOperator> GetOperatorProfileAsync(int userId)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.GetAsync($"http://localhost:5202/api/busoperator/profile/{userId}");
+            var res = await client.GetAsync($"http://localhost:5202/api/v1/busoperator/profile/{userId}");
             if (!res.IsSuccessStatusCode) return null;
             return JsonConvert.DeserializeObject<BusOperator>(await res.Content.ReadAsStringAsync());
         }
@@ -194,7 +194,7 @@ namespace MVC_UI.Services
         public async Task<IEnumerable<Bus>> GetOperatorBusesAsync(int operatorId)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.GetAsync($"http://localhost:5202/api/busoperator/buses/{operatorId}");
+            var res = await client.GetAsync($"http://localhost:5202/api/v1/busoperator/buses/{operatorId}");
             if (!res.IsSuccessStatusCode) return Enumerable.Empty<Bus>();
             return JsonConvert.DeserializeObject<IEnumerable<Bus>>(await res.Content.ReadAsStringAsync());
         }
@@ -202,7 +202,7 @@ namespace MVC_UI.Services
         public async Task<IEnumerable<Booking>> GetOperatorBookingsAsync(int operatorId)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.GetAsync($"http://localhost:5202/api/busoperator/bookings/{operatorId}");
+            var res = await client.GetAsync($"http://localhost:5202/api/v1/busoperator/bookings/{operatorId}");
             if (!res.IsSuccessStatusCode) return Enumerable.Empty<Booking>();
             return JsonConvert.DeserializeObject<IEnumerable<Booking>>(await res.Content.ReadAsStringAsync());
         }
@@ -210,27 +210,27 @@ namespace MVC_UI.Services
         public async Task<bool> AddBusForOperatorAsync(Bus bus)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.PostAsJsonAsync("http://localhost:5202/api/busoperator/add-bus", bus);
+            var res = await client.PostAsJsonAsync("http://localhost:5202/api/v1/busoperator/add-bus", bus);
             return res.IsSuccessStatusCode;
         }
 
         public async Task<bool> EditBusForOperatorAsync(Bus bus)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.PutAsJsonAsync("http://localhost:5202/api/busoperator/edit-bus", bus);
+            var res = await client.PutAsJsonAsync("http://localhost:5202/api/v1/busoperator/edit-bus", bus);
             return res.IsSuccessStatusCode;
         }
 
         public async Task<bool> RefundBookingAsync(int bookingId)
         {
             var client = CreateAuthorizedClient();
-            var res = await client.PutAsync($"http://localhost:5202/api/busoperator/refund/{bookingId}", null);
+            var res = await client.PutAsync($"http://localhost:5202/api/v1/busoperator/refund/{bookingId}", null);
             return res.IsSuccessStatusCode;
         }
         public async Task<IEnumerable<DAL.Models.Route>> GetAllRoutesAsync()
         {
             var client = CreateAuthorizedClient();
-            var res = await client.GetAsync("http://localhost:5202/api/route/all");
+            var res = await client.GetAsync("http://localhost:5202/api/v1/route/all");
             if (!res.IsSuccessStatusCode) return new List<DAL.Models.Route>();
             return JsonConvert.DeserializeObject<IEnumerable<DAL.Models.Route>>(await res.Content.ReadAsStringAsync());
         }

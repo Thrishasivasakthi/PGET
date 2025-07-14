@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,9 @@ namespace DAL.Models
     public class Route
     {
         [Key]
+
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
         public int Id { get; set; }
 
         [Required, StringLength(100)]
@@ -27,6 +31,6 @@ namespace DAL.Models
         [Required, Range(0, 10000)]
         public decimal Fare { get; set; }
 
-        public ICollection<Bus> Buses { get; set; }
+        public ICollection<Bus>? Buses { get; set; }
     }
 }

@@ -11,6 +11,8 @@ namespace DAL.Models
     public class BusOperator
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
         public int Id { get; set; }
 
         [Required]

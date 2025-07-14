@@ -2,7 +2,7 @@
   {
     "ContainingType": "API.Controllers.AdminController",
     "Method": "AddRoute",
-    "RelativePath": "api/Admin/add-route",
+    "RelativePath": "api/v{version}/Admin/add-route",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -11,6 +11,11 @@
         "Name": "route",
         "Type": "DAL.Models.Route",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -18,17 +23,23 @@
   {
     "ContainingType": "API.Controllers.AdminController",
     "Method": "GetAllBookings",
-    "RelativePath": "api/Admin/bookings",
+    "RelativePath": "api/v{version}/Admin/bookings",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "API.Controllers.AdminController",
     "Method": "DeleteOperator",
-    "RelativePath": "api/Admin/operator/{operatorId}",
+    "RelativePath": "api/v{version}/Admin/operator/{operatorId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -37,6 +48,11 @@
         "Name": "operatorId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -44,17 +60,23 @@
   {
     "ContainingType": "API.Controllers.AdminController",
     "Method": "GetAllOperators",
-    "RelativePath": "api/Admin/operators",
+    "RelativePath": "api/v{version}/Admin/operators",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "API.Controllers.AdminController",
     "Method": "DeleteUser",
-    "RelativePath": "api/Admin/user/{userId}",
+    "RelativePath": "api/v{version}/Admin/user/{userId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -63,6 +85,11 @@
         "Name": "userId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -70,27 +97,39 @@
   {
     "ContainingType": "API.Controllers.AdminController",
     "Method": "GetAllUsers",
-    "RelativePath": "api/Admin/users",
+    "RelativePath": "api/v{version}/Admin/users",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "API.Controllers.AmenityController",
     "Method": "GetAllAmenities",
-    "RelativePath": "api/Amenity/all",
+    "RelativePath": "api/v{version}/Amenity/all",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "API.Controllers.AmenityController",
     "Method": "AssignAmenitiesToBus",
-    "RelativePath": "api/Amenity/assign",
+    "RelativePath": "api/v{version}/Amenity/assign",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -104,6 +143,11 @@
         "Name": "amenityIds",
         "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -111,7 +155,7 @@
   {
     "ContainingType": "API.Controllers.AmenityController",
     "Method": "GetAmenitiesByBus",
-    "RelativePath": "api/Amenity/bus/{busId}",
+    "RelativePath": "api/v{version}/Amenity/bus/{busId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -120,6 +164,11 @@
         "Name": "busId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -127,7 +176,7 @@
   {
     "ContainingType": "API.Controllers.BookingController",
     "Method": "GetBookingById",
-    "RelativePath": "api/Booking/{bookingId}",
+    "RelativePath": "api/v{version}/Booking/{bookingId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -136,6 +185,11 @@
         "Name": "bookingId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -143,7 +197,7 @@
   {
     "ContainingType": "API.Controllers.BookingController",
     "Method": "BookTicket",
-    "RelativePath": "api/Booking/book",
+    "RelativePath": "api/v{version}/Booking/book",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -162,6 +216,11 @@
         "Name": "seatNumbers",
         "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -169,7 +228,7 @@
   {
     "ContainingType": "API.Controllers.BookingController",
     "Method": "CancelBooking",
-    "RelativePath": "api/Booking/cancel/{bookingId}",
+    "RelativePath": "api/v{version}/Booking/cancel/{bookingId}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -183,6 +242,11 @@
         "Name": "reason",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -190,7 +254,7 @@
   {
     "ContainingType": "API.Controllers.BookingController",
     "Method": "GetBookingsByUser",
-    "RelativePath": "api/Booking/user/{userId}",
+    "RelativePath": "api/v{version}/Booking/user/{userId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -199,6 +263,11 @@
         "Name": "userId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -206,7 +275,7 @@
   {
     "ContainingType": "API.Controllers.BusController",
     "Method": "GetBusById",
-    "RelativePath": "api/Bus/{id}",
+    "RelativePath": "api/v{version}/Bus/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -215,6 +284,11 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -222,7 +296,7 @@
   {
     "ContainingType": "API.Controllers.BusController",
     "Method": "AddBus",
-    "RelativePath": "api/Bus/add",
+    "RelativePath": "api/v{version}/Bus/add",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -231,6 +305,11 @@
         "Name": "bus",
         "Type": "DAL.Models.Bus",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -238,7 +317,7 @@
   {
     "ContainingType": "API.Controllers.BusController",
     "Method": "GetAvailableBuses",
-    "RelativePath": "api/Bus/route/{routeId}/date/{date}",
+    "RelativePath": "api/v{version}/Bus/route/{routeId}/date/{date}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -252,6 +331,11 @@
         "Name": "date",
         "Type": "System.DateTime",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -259,7 +343,7 @@
   {
     "ContainingType": "API.Controllers.BusController",
     "Method": "GetAvailableSeats",
-    "RelativePath": "api/Bus/seats/{busId}",
+    "RelativePath": "api/v{version}/Bus/seats/{busId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -268,6 +352,11 @@
         "Name": "busId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -275,7 +364,7 @@
   {
     "ContainingType": "API.Controllers.BusController",
     "Method": "UpdateBus",
-    "RelativePath": "api/Bus/update",
+    "RelativePath": "api/v{version}/Bus/update",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -283,6 +372,11 @@
       {
         "Name": "bus",
         "Type": "DAL.Models.Bus",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -291,7 +385,7 @@
   {
     "ContainingType": "API.Controllers.BusOperatorController",
     "Method": "AddBus",
-    "RelativePath": "api/BusOperator/add-bus",
+    "RelativePath": "api/v{version}/BusOperator/add-bus",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -299,6 +393,11 @@
       {
         "Name": "bus",
         "Type": "DAL.Models.Bus",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -307,7 +406,7 @@
   {
     "ContainingType": "API.Controllers.BusOperatorController",
     "Method": "GetOperatorBookings",
-    "RelativePath": "api/BusOperator/bookings/{operatorId}",
+    "RelativePath": "api/v{version}/BusOperator/bookings/{operatorId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -315,6 +414,11 @@
       {
         "Name": "operatorId",
         "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -323,7 +427,7 @@
   {
     "ContainingType": "API.Controllers.BusOperatorController",
     "Method": "GetOperatorBuses",
-    "RelativePath": "api/BusOperator/buses/{operatorId}",
+    "RelativePath": "api/v{version}/BusOperator/buses/{operatorId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -332,6 +436,11 @@
         "Name": "operatorId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -339,7 +448,7 @@
   {
     "ContainingType": "API.Controllers.BusOperatorController",
     "Method": "EditBus",
-    "RelativePath": "api/BusOperator/edit-bus",
+    "RelativePath": "api/v{version}/BusOperator/edit-bus",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -348,6 +457,11 @@
         "Name": "bus",
         "Type": "DAL.Models.Bus",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -355,7 +469,7 @@
   {
     "ContainingType": "API.Controllers.BusOperatorController",
     "Method": "GetProfile",
-    "RelativePath": "api/BusOperator/profile/{userId}",
+    "RelativePath": "api/v{version}/BusOperator/profile/{userId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -364,6 +478,11 @@
         "Name": "userId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -371,7 +490,7 @@
   {
     "ContainingType": "API.Controllers.BusOperatorController",
     "Method": "RefundBooking",
-    "RelativePath": "api/BusOperator/refund/{bookingId}",
+    "RelativePath": "api/v{version}/BusOperator/refund/{bookingId}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -380,6 +499,11 @@
         "Name": "bookingId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -387,7 +511,7 @@
   {
     "ContainingType": "API.Controllers.PaymentController",
     "Method": "GetPaymentByBookingId",
-    "RelativePath": "api/Payment/booking/{bookingId}",
+    "RelativePath": "api/v{version}/Payment/booking/{bookingId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -396,6 +520,11 @@
         "Name": "bookingId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -403,7 +532,7 @@
   {
     "ContainingType": "API.Controllers.PaymentController",
     "Method": "ProcessPayment",
-    "RelativePath": "api/Payment/process",
+    "RelativePath": "api/v{version}/Payment/process",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -412,6 +541,11 @@
         "Name": "payment",
         "Type": "DAL.Models.Payment",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -419,7 +553,7 @@
   {
     "ContainingType": "API.Controllers.PaymentController",
     "Method": "RefundPayment",
-    "RelativePath": "api/Payment/refund/{bookingId}",
+    "RelativePath": "api/v{version}/Payment/refund/{bookingId}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -433,6 +567,11 @@
         "Name": "amount",
         "Type": "System.Decimal",
         "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -440,7 +579,7 @@
   {
     "ContainingType": "API.Controllers.RouteController",
     "Method": "AddRoute",
-    "RelativePath": "api/Route/add",
+    "RelativePath": "api/v{version}/Route/add",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -449,6 +588,11 @@
         "Name": "route",
         "Type": "DAL.Models.Route",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -456,17 +600,23 @@
   {
     "ContainingType": "API.Controllers.RouteController",
     "Method": "GetAllRoutes",
-    "RelativePath": "api/Route/all",
+    "RelativePath": "api/v{version}/Route/all",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "API.Controllers.RouteController",
     "Method": "GetBusById",
-    "RelativePath": "api/Route/bus/{id}",
+    "RelativePath": "api/v{version}/Route/bus/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -474,6 +624,42 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.RouteController",
+    "Method": "SearchRoutes",
+    "RelativePath": "api/v{version}/Route/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "origin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "destination",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -482,7 +668,7 @@
   {
     "ContainingType": "API.Controllers.UserController",
     "Method": "GetUserBookings",
-    "RelativePath": "api/User/bookings/{userId}",
+    "RelativePath": "api/v{version}/User/bookings/{userId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -491,6 +677,11 @@
         "Name": "userId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -498,7 +689,7 @@
   {
     "ContainingType": "API.Controllers.UserController",
     "Method": "CancelBooking",
-    "RelativePath": "api/User/cancel-booking/{bookingId}",
+    "RelativePath": "api/v{version}/User/cancel-booking/{bookingId}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -507,6 +698,11 @@
         "Name": "bookingId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -514,7 +710,7 @@
   {
     "ContainingType": "API.Controllers.UserController",
     "Method": "Login",
-    "RelativePath": "api/User/login",
+    "RelativePath": "api/v{version}/User/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -523,6 +719,11 @@
         "Name": "loginData",
         "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -530,7 +731,7 @@
   {
     "ContainingType": "API.Controllers.UserController",
     "Method": "UpdateProfile",
-    "RelativePath": "api/User/profile",
+    "RelativePath": "api/v{version}/User/profile",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -539,6 +740,11 @@
         "Name": "user",
         "Type": "DAL.Models.User",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -546,7 +752,7 @@
   {
     "ContainingType": "API.Controllers.UserController",
     "Method": "GetProfile",
-    "RelativePath": "api/User/profile/{id}",
+    "RelativePath": "api/v{version}/User/profile/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -555,6 +761,11 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -562,7 +773,7 @@
   {
     "ContainingType": "API.Controllers.UserController",
     "Method": "Register",
-    "RelativePath": "api/User/register",
+    "RelativePath": "api/v{version}/User/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -570,6 +781,11 @@
       {
         "Name": "user",
         "Type": "DAL.Models.User",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       }
     ],

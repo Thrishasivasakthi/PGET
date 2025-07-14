@@ -24,7 +24,7 @@ namespace MVC_UI.Controllers
             if (!ModelState.IsValid) return View(model);
 
             var client = _httpClientFactory.CreateClient();
-            var response = await client.PostAsJsonAsync("http://localhost:5202/api/user/login", new
+            var response = await client.PostAsJsonAsync("http://localhost:5202/api/v1/user/login", new
             {
                 email = model.Email,
                 password = model.Password

@@ -36,7 +36,7 @@ namespace FastX.DAL.Services
         public async Task<IEnumerable<Seat>> GetAvailableSeatsAsync(int busId)
         {
             return await _context.Seats
-                .Where(s => s.BusId == busId && !s.IsBooked)
+                .Where(s => s.BusId == busId)
                 .ToListAsync();
         }
 
